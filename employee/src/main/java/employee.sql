@@ -4,6 +4,7 @@ CREATE TABLE `employee_details` (
   `emp_aadhar` varchar(50) NOT NULL,
   `emp_sal` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+INSERT INTO `employee_details` VALUES (1,'Abhay','123455443487',20000),(2,'rakesh','12885443487',20000);
 
 
 
