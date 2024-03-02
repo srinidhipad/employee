@@ -7,10 +7,9 @@ CREATE TABLE `employee_details` (
 
 
 
-
 CREATE TABLE `employee_master` (
   `emp_id` int(5) NOT NULL AUTO_INCREMENT,
   `emp_name` varchar(50) NOT NULL,
-  `emp_dept` varchar(50) NOT NULL,
+  `emp_dept` varchar(55) NOT NULL,
   PRIMARY KEY (`emp_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
